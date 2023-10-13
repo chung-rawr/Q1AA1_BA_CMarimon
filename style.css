@@ -1,0 +1,145 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar img {
+    float: left;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.banner{
+    background-image: url("maneskin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 60%;
+    padding: 0%;
+
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: Grey;
+    font-family: cursive;
+ 
+}
+
+.banner p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.highlight-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; 
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+.banner a:hover{
+    background-color: whitesmoke;
+    color: grey;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+.gallery {
+    text-align: center;
+    color: black;
+}
+
+.gallery h1{
+    font-family: 'Lucida handwriting';
+    color: black;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: calc(33.33% - 20px); 
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.gallery-row {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    color: black;
+    width: 1000px;
+}
+
+.centered {
+    color: black;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.copyright {
+    float: left;
+}
+
+
+.footer-links {
+    float: right;
+}
+
+.footer-links img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+
